@@ -48,7 +48,6 @@ build_conf.set('testdatadir', join_paths(meson.source_root(), 'tests'))
 
 test_c_args = [
   '-DRETRO_LOG_DOMAIN="Retro"',
-  '-DRETRO_GTK_USE_UNSTABLE_API',
 ]
 
 tests = [
